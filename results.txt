@@ -1,0 +1,17 @@
+Results I observed:
+The more pruning is done,the performance of network degrades further.
+
+
+What interesting insights did I find?
+Even with 14 lakh weights set to zero only 2% accuracy was lost.
+We can save on a lot of computation by pruning.
+Weight Pruning is better than unit pruning.
+
+Do the curves differ?
+No,but weight pruning decays slowly than unit pruning
+
+
+
+By deleting whole neuron we also remove important features that contribute to rare cases that neuran must have learnt.
+But by pruning less important weights from all neurons we remove not so important fetaures only from all neurons.
+
